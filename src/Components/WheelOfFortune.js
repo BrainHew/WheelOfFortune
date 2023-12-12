@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const WheelOfFortune = () => {
     const [selectedItem, setSelectedItem] = useState(null);
-    const items = ['Александра Федоренко', 'Дарья Недова', 'Рома Иванов ', 'Светлана Сергеевна Панадий', 'Ева Полупан'];
+    const items = ['Александра Федоренко',  'Светлана Сергеевна Панадий'];
 
     const spinWheel = () => {
         const randomIndex = Math.floor(Math.random() * items.length);
